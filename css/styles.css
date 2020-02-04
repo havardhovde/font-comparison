@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    font-weight:bolder;
+    color: black;
+}
+
+p, h1, h2 {
+    padding: 15px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.merriweather a {
+    color: red;
+}
+
+.merriweather a:hover {
+    text-decoration: red underline;
+}
+
+.roboto a {
+    color: red;
+}
+
+.characters {
+    line-height: 2rem;
+}
+
+.roboto a:hover {
+    text-decoration: red underline;
+}
+
+#robotitle {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#merrititle {
+    font-family: 'merriweather', serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+#logo {
+    padding-top: 5px;
+    font-size: 2rem;
+    flex-basis: 410px;
+}
+
+main {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-container-sub{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 200px;
+}
+
+article {
+    margin-top: 50px;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#roboto1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    align-content: center;
+    margin-left: auto;
+}
+
+#merriweather1 {
+    font-family: 'merriweather', serif;
+    color: black;
+    margin-right: auto;
+}
+
+.merrih1 {
+    font-family: 'merriweather', serif;
+    font-size: 2rem;
+}
+
+.roboh1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.roboto h2 {
+    font-size: 1.5rem;
+}
+
+.merriweather h2 {
+    font-size: 1.5rem;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 50px;
+}
+
+.merriweather {
+    font-family: 'merriweather', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 50px;
+}
+
+#thin {
+    font-weight: 100;
+    padding: 15px 17px 0px 17px;
+}
+
+#thinitalic {
+    font-weight: 100;
+    font-style: italic;
+    padding: 0px 10px 0px 17px;
+}
+
+#light {
+    font-weight: 300;
+    padding: 0px 10px 0px 17px;
+}
+
+#lightitalic {
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px 10px 0px 17px;
+}
+
+#regular {
+    font-weight: 400;
+    padding: 0px 10px 0px 17px;
+}
+
+#regularitalic {
+    font-weight: 400;
+    font-style: italic;
+    padding: 0px 10px 0px 17px;
+}
+
+#medium {
+    font-weight: 500;
+    padding: 0px 10px 0px 17px;
+}
+
+#mediumitalic {
+    font-weight: 500;
+    font-style: italic;
+    padding: 0px 10px 0px 17px;
+}
+
+#bold {
+    font-weight: 700;
+    padding: 0px 10px 0px 17px;
+}
+
+#bolditalic {
+    font-weight: 700;
+    font-style: italic;
+    padding: 0px 10px 0px 17px;
+}
+
+#black {
+    font-weight: 900;
+    padding: 0px 10px 0px 17px;
+}
+
+#blackitalic {
+    font-weight: 900;
+    font-style: italic;
+    padding: 0px 10px 0px 17px; 
+}
+
+#mlight {
+    font-weight: 300;
+    padding: 15px 10px 0px 17px;
+}
+
+#roboabout {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#mabout {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+#robheadingbold {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+#robheadingreg {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+#roboheadinglight {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+#merheadingblack {
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+#merheadingregita {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+#merheadinglight {
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+}
+
+#roboglyph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12rem;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#roboglyphindex {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12rem;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+#merriglyph {
+    font-family: 'Merriweather', serif;
+    font-size: 12rem;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#merriglyphindex {
+    font-family: 'Merriweather', serif;
+    font-size: 12rem;
+    font-weight: 400;
+    padding: 0px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 160px 50px 150px;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+}
+
+.topnav a {
+    padding: 20px 70px 20px 70px;
+}
+
+.topnav > a {
+    position: relative;
+    text-decoration: none;
+}
+
+.topnav > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.topnav > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+@media (max-width: 760px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 100px;
+    }
+
+    .grid-container-sub {
+        grid-template-columns: 1fr;
+    }
+
+    .topnav {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        margin-bottom: 4rem;
+    }
+
+    .topnav > a:hover:before{
+        visibility: hidden; 
+    }
+}
